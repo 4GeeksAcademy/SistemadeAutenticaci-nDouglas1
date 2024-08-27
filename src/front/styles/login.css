@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    background: #f0f4f8;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .login-form {
+    background: #ffffff;
+    width: 400px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h1 {
+    padding: 20px;
+    font-weight: 400;
+    color: #333;
+    border-bottom: 2px solid #f0f0f0;
+    font-size: 24px;
+  }
+  
+  .login-form .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .login-form .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .login-form .input-field input {
+    font-size: 16px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    outline: none;
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+  }
+  
+  .login-form .input-field input::placeholder {
+    color: #aaa;
+  }
+  
+  .login-form .input-field input:focus {
+    border-color: #007bff;
+  }
+  
+  .login-form a.link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+  
+  .login-form a.link:hover {
+    color: #0056b3;
+  }
+  
+  .login-form .action {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form .action button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    outline: none;
+  }
+  
+  .login-form .action button:hover {
+    background: #0056b3;
+  }
+  
+  .login-form .action .selected {
+    background: #0056b3;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+  
+  .login-form .action button:nth-child(2):hover {
+    background: #0056b3;
+  }
